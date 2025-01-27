@@ -5,7 +5,7 @@ import pytest
 class Test_yandex_disk(unittest.TestCase):
     def setUp(self):
         self.headers = {
-            'Authorization': 'OAuth y0_AgAAAAAUu06EAADLWwAAAAESS_xkAABmBMoZL7hG4KJsLrT_ZiTh9W1L_g'
+            'Authorization': 'token'
         }
 
     def test_create_folder2(self):
